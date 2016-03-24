@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html>
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>RunJS</title>
+		<style type="text/css">
+			body {
+			    font-family:"Microsoft Yahei";
+			    padding:2px;
+			    margin:20px;
+			    background-color: #DEDEDE;
+			}
+			.divStyle{
+				padding:20px;
+				<!--margin: 10px auto;
+				margin-bottom:20px;-->
+				border:1px solid #9F9F9F;
+				background-color: #FFFFFF;
+				box-shadow: 0px 1px 3px rgba(34, 25, 25, 0.2);
+			}
+			.divStyle p{line-height:1.8em;}
+			.divStyle h3{color:#555555;}
+			.divStyle h4{color:#777777;}
+			.divStyle dd{line-height:1.8em;}
+			li {
+				list-style-type:none;
+				line-height:1.8em;
+			}
+			.imgDiv{
+				border:1px #DEDEDE solid;
+				position:relative;
+				width: 112px;
+				height: 120px;
+				left: 40px;
+				margin-bottom:20px;
+				text-align:center;
+			}
+			.imgDiv img{
+				position:absolute;
+				width: 92px;
+				height: 80px;
+				bottom:10px;
+				left: 10px;
+			}
+			.imgDiv p{
+				font-size:12px;
+				margin-top: 5px;
+				margin-bottom: 5px;
+			}
+			.tableStyle{
+				border-collapse:collapse;
+				border:solid #999;
+				border-width:1px 0 0 1px;
+  				border-color: #CCCCCC;
+				width: 100%;
+			}
+			.tableStyle thead{
+				background-color: #333333;
+				
+			}
+			.tableStyle thead td{
+				color:#FFFFFF;
+			}
+			.tableStyle tfoot{
+				background-color: #CCCCCC;
+
+			}
+			.tableStyle td {border:solid #CCCCCC;border-width:0 1px 1px 0;padding-left: 5px} 
+			.table{
+				display: table;
+				margin-left: auto;
+				margin-right: auto;
+			}
+			.table-row{
+				display: table-row;
+			}
+			.table-cell1{
+				display: table-cell;
+				text-align: right;
+				padding-right: 10px;
+				padding-top: 5px;
+				vertical-align: top;
+			}
+			.table-cell2{
+				display: table-cell;
+				padding-left: 10px;
+				padding-top: 5px;
+			}
+			.table-cell3{
+				display: table-cell;
+				padding-left: 10px;
+				padding-top: 5px;
+				color: grey;
+			}
+			.divLeft h2{
+				font-size: 16px;
+				border-left: 3px solid gray;
+				padding: 5px 10px;
+			}
+			.submit{
+				background-color: #3355D0;
+				color: #FFFFFF;
+				height: 40px;
+				width: 100%;
+				border-radius:10px;
+				font-size: 20px;
+			}
+			.table-cell2 textarea{
+				width: 800px;
+				height: 100px;
+			}
+		}
+		</style>
+	</head>
+	<body>
+	<div class="divStyle">
+		<h2>
+			文章一级标题
+		</h2>
+		<h3>
+			文章二级标题
+		</h3>
+		<h4>
+			文章作者 文章发表时间
+		</h4>
+		<p>
+			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+			这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com/">这里有一个链接连接到http://ife.baidu.com/</a>这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+		</p>
+		<img src="http://img5.duitang.com/uploads/blog/201502/09/20150209182957_zVjBF.thumb.700_0.jpeg" width="280" height="242"/>
+		<p>
+			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com/" target="_blank">这里有一个链接点击后打开新窗口链接到http://ife.baidu.com/</a>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，
+		</p>
+	</div>
+	<div class="divStyle">
+		<h1>
+			另一篇文章一级标题
+		</h1>
+		<h3>
+			文章二级标题
+		</h3>
+		<h4>
+			文章作者 文章发表时间
+		</h4>
+		<p>
+			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+			这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，换行了<br>
+			这是一个很长很长的段落，这是一个很长很长的段落，<a href="http://ife.baidu.com/">这里有一个链接连接到http://ife.baidu.com/</a>这是一个很长很长的段落，这是一个很长很长的段落，<b>这里有个粗体字</b>这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落，这是一个很长很长的段落。
+		</p>
+		<img src="http://img5.duitang.com/uploads/blog/201502/09/20150209182957_zVjBF.thumb.700_0.jpeg" width="280" height="242"/>
+		<p>
+		<ul>
+			<li>列表项目一</li>
+			<li>列表项目二</li>
+			<li>列表项目三</li>
+		</ul>
+		</p>
+	</div>
+	<div class="divStyle">
+	<h2>
+		图片
+	</h2>
+	<div class="imgDiv">
+		<p>
+			好看的图片</p>
+		<img src="http://img5.duitang.com/uploads/blog/201502/09/20150209182957_zVjBF.thumb.700_0.jpeg"/>
+	</div>
+	<div class="imgDiv">
+		<p>
+			好看的图片<br>
+		<img src="http://img5.duitang.com/uploads/blog/201502/09/20150209182957_zVjBF.thumb.700_0.jpeg"/></p>
+	</div>
+	<div class="imgDiv">
+		<p>
+			好看的图片<br>
+		<img src="http://img5.duitang.com/uploads/blog/201502/09/20150209182957_zVjBF.thumb.700_0.jpeg"/></p>
+	</div>
+	<div class="imgDiv">
+		<p>
+			好看的图片<br>
+		<img src="http://img5.duitang.com/uploads/blog/201502/09/20150209182957_zVjBF.thumb.700_0.jpeg"/></p>
+	</div>
+	<div class="imgDiv">
+		<p>
+			好看的图片<br>
+		<img src="http://img5.duitang.com/uploads/blog/201502/09/20150209182957_zVjBF.thumb.700_0.jpeg"/></p>
+	</div>
+	<div class="imgDiv">
+		<p>
+			好看的图片<br>
+		<img src="http://img5.duitang.com/uploads/blog/201502/09/20150209182957_zVjBF.thumb.700_0.jpeg"/></p>
+	</div>
+	<div class="imgDiv">
+		<p>
+			好看的图片<br>
+		<img src="http://img5.duitang.com/uploads/blog/201502/09/20150209182957_zVjBF.thumb.700_0.jpeg"/></p>
+	</div>
+	<div class="imgDiv">
+		<p>
+			好看的图片<br>
+		<img src="http://img5.duitang.com/uploads/blog/201502/09/20150209182957_zVjBF.thumb.700_0.jpeg"/></p>
+	</div>
+	<div class="imgDiv">
+		<p>
+			好看的图片<br>
+		<img src="http://img5.duitang.com/uploads/blog/201502/09/20150209182957_zVjBF.thumb.700_0.jpeg"/></p>
+	</div>
+	</div>
+	<div class="divStyle">
+		<h2>
+			最后一篇文章一级标题
+		</h2>
+		<h3>
+			文章二级标题
+		</h3>
+		<h4>
+			文章作者 文章发表时间
+		</h4>
+		<dl>
+			<dd>1.排名1</dd>
+			<dd>2.排名2</dd>
+			<dd>3.排名3</dd>
+		</dl>
+	下面是一个表格，给表格加了border="1",好让你看出是一个表格
+		<table class="tableStyle">
+			<thead>
+				<tr>
+					<td>表头</td>
+					<td>表头</td>
+					<td>表头</td>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="">操作</a></td>
+				</tr>
+				<tr>
+					<td>表内容单元格</td>
+					<td>表内容单元格</td>
+					<td><a href="">操作</a></td>
+				</tr>
+			</tbody>
+			<tfoot>
+				<tr>
+					<td>总计</td>
+					<td colspan="2">1000</td>
+				</tr>
+			</tfoot>
+		</table>
+	</div>
+	<div class="divStyle">
+		<div class="divLeft">
+			<h2>
+				这里以后是一个侧栏，这是侧栏的标题
+			</h2>
+		</div>
+		<div class="table">
+			<div class="table-row">
+				<div class="table-cell1">请输入邮箱地址：</div>
+				<div class="table-cell2"><input type="text" placeholder="这是一个文本输入框"/></div>
+			</div>
+			<div class="table-row">
+				<div></div>
+				<div class="table-cell3">邮箱地址请按要求格式输入</div>
+			</div>
+			<div class="table-row">
+				<div class="table-cell1">请输入密码：</div>
+				<div class="table-cell2"><input type="password" placeholder="这是一个文本输入框"/></div>
+			</div>
+			<div class="table-row">
+				<div class="table-cell1">请重复输入密码：</div>
+				<div class="table-cell2"><input type="password" placeholder="这是一个文本输入框"/></div>
+			</div>
+			<div class="table-row">
+				<div></div>
+				<div class="table-cell3">密码请为6-16位英文数字</div>
+			</div>
+		
+			<div class="table-row">
+				<div class="table-cell1">性别：</div>
+				<div class="table-cell2"><input type="radio" name="sex" id="male"><label for="male">男</label> <input type="radio" name="sex" id="female"><label for="female">女</label></div>
+			</div>
+			<div class="table-row">
+				<div class="table-cell1">城市：</div>
+				<div class="table-cell2">
+					<select>
+				  		<option value ="0">北京</option>
+				  		<option value ="1">上海</option>
+				  		<option value="2">广州</option>
+				  		<option value="3">深圳</option>
+						</select>
+				</div>
+			</div>
+			<div class="table-row">
+				<div class="table-cell1">城市：</div>
+				<div class="table-cell2">
+					<input type="checkbox" name="hb" id="yd" value="1"/><label for="yd">运动</label>
+					<input type="checkbox" name="hb" id="ys" value="2"/><label for="ys">艺术</label>
+					<input type="checkbox" name="hb" id="kx" value="3"/><label for="kx">科学</label>
+				</div>
+			</div>
+			<div class="table-row">
+				<div class="table-cell1">个人描述：</div>
+				<div class="table-cell2"><textarea placeholder="这是一个多行输入框，输入你的个人描述"></textarea></div>
+			</div>
+		</div>
+		<div><input type="submit" value="确认提交"  class="submit"/></div>
+	</div>
+	<p>
+		版权所有&copy;
+	</p>
+</body>
+</html>
