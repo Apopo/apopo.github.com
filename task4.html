@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<title>RunJS</title>
+	<style type="text/css">
+	.box{
+		width: 400px;
+		height: 200px;
+		background-color: #ccc;
+		position:absolute;  
+		top:50%;  
+		left: 50%;
+   		margin-top: -100px;
+   		margin-left: -200px;
+	}
+	.circle-rightbottom{
+		width: 50px; height: 0px;border:0 solid transparent;border-bottom:50px solid #fc0;  -moz-border-radius:0 0 100px 0; -webkit-border-radius:0 0 100px 0; border-radius:0 0 100px 0; 
+	}
+	.circle-lefttop { 
+		width: 50px; 
+		height: 0px;
+		border:0 solid transparent;
+		border-top:50px solid #fc0;  
+		-moz-border-radius:0 100px 100px 0; 
+		-webkit-border-radius:0 100px 100px 0; 
+		border-radius:100px 0 0 0; 
+		right: 0;
+		bottom: 0;
+		position: absolute;
+	}
+	</style>
+</head>
+<body>
+	<div class="box">
+		<div class="circle-rightbottom"></div>
+		<div class="circle-lefttop"></div>
+	</div>
+</body>
+</html>
